@@ -1,0 +1,40 @@
+div.wpforms-container-full form[id^="wpforms-form"] {
+    .wpforms-field {
+        padding: 6px 0;
+
+        input, textarea {
+            border: none;
+            width: 100%;
+            display: block;
+            max-width: 100%;
+            font-size: 14px;
+            min-height: 60px;
+            padding: 20px;
+            border-radius: 4px;
+
+            &::placeholder {
+                color: $black;
+                font-weight: 500;
+            }
+        }
+    }
+
+    button[type="submit"] {
+        background: $dark-orange;
+        border: 0;
+        color: $white;
+        font-size: 16px;
+        padding: 26px 40px;
+        border-radius: 4px;
+        margin-top: 16px;
+        
+        @media (max-width: 1024px) {
+            width: 100%;
+        }
+
+        &:hover {
+            background: $light-orange;
+            border: 0;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+body.login {
+    background: #F9F5F4;
+    form {
+        background: transparent;
+        border: none;
+
+        label {
+            color: #11222C;
+        }
+
+        input:focus {
+            border-color:#9AE0DB;
+        }
+        #wp-submit {
+            background-color: #F1583C;
+            border: none;
+            padding: 8px;
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    }
+}

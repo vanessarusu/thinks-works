@@ -1,0 +1,47 @@
+
+.physician-hover {
+    > .fl-col-content {
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            background-color: $light-orange;
+            h3 span, a {
+                color: $black !important;
+            }
+            a:after {
+                background: $black;
+            }
+        }
+    }
+}
+
+.families-hover {
+
+    > .fl-col-content {
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            background-color: $dark-orange;
+            h3 span, a {
+                color: $white !important;
+            }
+            a:after {
+                background: $white;
+            }
+        }
+    }
+}
+
+.investors-hover {
+
+    > .fl-col-content {
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            background-color: $seafoam;
+            h3 span, a {
+                color: $black !important;
+            }
+            a:after {
+                background: $black;
+            }
+        }
+    }
+}

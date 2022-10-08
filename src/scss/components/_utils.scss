@@ -1,0 +1,20 @@
+::selection {
+    background: $seafoam;
+    color: $black;
+}
+
+.center {
+    text-align: center;
+}
+
+#valueProps {
+    .fl-col-group.fl-col-group-equal-height {
+        flex-wrap: wrap;
+        > .fl-col {
+            width: 33% !important;
+            @media (max-width: 600px) {
+                width: 50% !important;
+            }
+        }
+    }
+}

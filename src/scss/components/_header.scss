@@ -1,0 +1,33 @@
+.home header .fl-row-content-wrap {
+    background-color: $offwhite;
+}
+
+header .menu > li.current-menu-item > a:not(:hover) {
+    text-decoration: none;
+}
+
+@media (min-width: 769px) {
+    header .menu > li.current-menu-item > a:not(:hover) {
+        color: $black !important;
+    }
+}
+
+@media (max-width: 768px) {
+    header .sub-menu {
+        box-shadow: none !important;
+    }
+
+    header .fl-module-menu.fl-menu-mobile-clone {
+        background: $black;
+        a {
+            color: $white !important;
+            background: transparent !important;
+        }
+        .fl-menu-toggle:before {
+            border-color: $white !important;
+        }
+        .sub-menu {
+            background: transparent !important;
+        }
+    }
+}

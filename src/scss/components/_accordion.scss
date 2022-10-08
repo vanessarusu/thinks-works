@@ -1,0 +1,23 @@
+.custom-accordion {
+    i.fl-accordion-button-icon {
+        opacity: 1;
+        padding-top: 7px;
+        padding-right: 40px;
+        @media (max-width: 800px) {
+            padding-right: 10px;
+        }
+        &.fa-minus {
+            padding-right: 44px;
+            @media (max-width: 800px) {
+                padding-right: 18px;
+            }
+        }
+    }
+    .fl-accordion-content {
+        padding-left: 80px;
+
+        @media (max-width: 800px) {
+            padding-left: 10px;
+        }
+    }
+}
